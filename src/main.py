@@ -9,7 +9,7 @@ from monitor import Monitor
 load_dotenv()
 
 # ─── CHANGE THIS TO SWITCH MODES ───────────────────────────
-MODE = "monitor_swap"  # options: single_agent | fixed_roles | random_swap | monitor_swap
+MODE = "random_swap"  # options: single_agent | fixed_roles | random_swap | monitor_swap
 NUM_QUESTIONS = 10      # 5 for quick test, 50 for MVP, 200 for paper
 # ────────────────────────────────────────────────────────────
 
